@@ -20,6 +20,7 @@ message CreateUserResponse {
 
 message ProfileUserRequest {
   string email= 1;
+  string hashepassword = 2;
 }
 message ProfileUserResponse{
   User user = 1;
