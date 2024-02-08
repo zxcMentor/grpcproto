@@ -19,7 +19,7 @@ message CreateUserResponse {
 }
 
 message ProfileUserRequest {
-  int32 id = 1;
+  string email= 1;
 }
 message ProfileUserResponse{
   User user = 1;
